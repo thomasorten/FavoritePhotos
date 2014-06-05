@@ -21,6 +21,8 @@
 		4505FA19193D15330016FC7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4505F9FB193D15330016FC7F /* UIKit.framework */; };
 		4505FA21193D15330016FC7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4505FA1F193D15330016FC7F /* InfoPlist.strings */; };
 		4505FA23193D15330016FC7F /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505FA22193D15330016FC7F /* FavoritePhotosTests.m */; };
+		45D74E1C193D2C50005DEEA2 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74E1B193D2C50005DEEA2 /* myCell.m */; };
+		45D74E1F193D3433005DEEA2 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74E1E193D3433005DEEA2 /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		4505FA1E193D15330016FC7F /* FavoritePhotosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FavoritePhotosTests-Info.plist"; sourceTree = "<group>"; };
 		4505FA20193D15330016FC7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4505FA22193D15330016FC7F /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
+		45D74E1A193D2C50005DEEA2 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		45D74E1B193D2C50005DEEA2 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
+		45D74E1D193D3433005DEEA2 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		45D74E1E193D3433005DEEA2 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				4505FA06193D15330016FC7F /* AppDelegate.h */,
 				4505FA07193D15330016FC7F /* AppDelegate.m */,
 				4505FA09193D15330016FC7F /* Main.storyboard */,
+				45D74E1D193D3433005DEEA2 /* FavoritesViewController.h */,
+				45D74E1E193D3433005DEEA2 /* FavoritesViewController.m */,
 				4505FA0C193D15330016FC7F /* ViewController.h */,
 				4505FA0D193D15330016FC7F /* ViewController.m */,
+				45D74E1A193D2C50005DEEA2 /* myCell.h */,
+				45D74E1B193D2C50005DEEA2 /* myCell.m */,
 				4505FA0F193D15330016FC7F /* Images.xcassets */,
 				4505F9FE193D15330016FC7F /* Supporting Files */,
 			);
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D74E1F193D3433005DEEA2 /* FavoritesViewController.m in Sources */,
 				4505FA0E193D15330016FC7F /* ViewController.m in Sources */,
+				45D74E1C193D2C50005DEEA2 /* myCell.m in Sources */,
 				4505FA08193D15330016FC7F /* AppDelegate.m in Sources */,
 				4505FA04193D15330016FC7F /* main.m in Sources */,
 			);
@@ -456,6 +468,7 @@
 				4505FA28193D15330016FC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4505FA29193D15330016FC7F /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				4505FA2B193D15330016FC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
